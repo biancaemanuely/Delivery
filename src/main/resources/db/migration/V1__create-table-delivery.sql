@@ -1,0 +1,6 @@
+CREATE TABLE delivery(
+id TEXT PRIMARY KEY UNIQUE NOT NULL,
+name TEXT NOT NULL,
+cpf INT UNIQUE NOT NULL,
+capacidadedoveiculo INT NOT NULL
+);
